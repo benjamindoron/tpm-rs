@@ -19,6 +19,7 @@ connection-tcp = ["dep:zerocopy", "tpm2/std"]
 [dependencies]
 tpm2 = { workspace = true }
 zerocopy = { workspace = true, optional = true }
+tempfile = { workspace = true }
 tpm2-rustcrypto = { workspace = true }
 
 [dev-dependencies]
